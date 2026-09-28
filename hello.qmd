@@ -8,4 +8,6 @@ This document includes a summary of the cars dataset descriptive statistics.
 
 ```{r}
 summary(cars)
+library(ggplot2)
+ggplot(cars, aes(x=speed, y=dist)) + geom_point()
 ```
