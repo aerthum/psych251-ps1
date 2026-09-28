@@ -4,6 +4,8 @@ format: html
 editor: visual
 ---
 
+This document includes a summary of the cars dataset descriptive statistics.
+
 ```{r}
 summary(cars)
 ```
